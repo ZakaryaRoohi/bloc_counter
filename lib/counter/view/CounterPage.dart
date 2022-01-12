@@ -4,6 +4,8 @@ import 'package:bloc_counter/counter/cubit/counter_cubit.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
+import 'counter_view.dart';
+
 class CounterPage extends StatelessWidget{
 
   const CounterPage({Key? key}) : super(key: key);
